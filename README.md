@@ -1,1 +1,0 @@
-# Wiz-Dimensional-s-Lumens-Motion
