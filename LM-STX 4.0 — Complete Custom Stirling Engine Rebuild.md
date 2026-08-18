@@ -1,6 +1,6 @@
 LM-STX 4.0 — Complete Custom Stirling Engine Rebuild
 
-Yes. For Lumens Motion 4.0, I would rebuild the Stirling as a dedicated engine from the ground up, using the strongest ideas from the 
+ Lumens Motion 4.0, custom rebuild Stirling as a dedicated engine from the ground up, using the strongest ideas from the 
 previous design while removing anything that unnecessarily increases complexity or losses. The result is the LM-STX 4.0 — Lumens Motion 
 Thermal-Solar Stirling, designed specifically for the 4.0 vehicle's thermal reservoir, magnetic mechanical propulsion, electric propulsion, 
 regenerative braking, thermal cascade, and EL-40 control system. This is a conceptual engineering design, so exact dimensions, pressures,
