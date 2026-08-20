@@ -325,3 +325,4 @@ EL-40 predictive control.
 The key engineering objective is not to claim that the Stirling creates more energy than it receives. It is to extract as much useful work as realistically possible from the thermal energy Lumens already collected, while allowing the electric system to handle fast power changes and regenerative recovery.
 
 That makes the LM-STX 4.0 the thermal heart of Lumens Motion 4.0, while the electric motors remain the fast-response propulsion system and EL-40 coordinates the two.
+Once Again Lumens Motion is a conceptual engeeneering project none of the numbers have been tested this remains idea. 
