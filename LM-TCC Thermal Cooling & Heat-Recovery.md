@@ -202,3 +202,4 @@ HOT → WORK → ELECTRICITY → PROPULSION → RECOVERY → COOLING/HEATING →
 
 The potential benefit is that less of the collected thermal energy is immediately discarded, while the vehicle can use the same thermal architecture 
 for propulsion, electricity, cabin climate control, battery conditioning and heat management.
+Once Again Lumens Motion is a conceptual engeeneering project none of the numbers have been tested this remains idea. 
