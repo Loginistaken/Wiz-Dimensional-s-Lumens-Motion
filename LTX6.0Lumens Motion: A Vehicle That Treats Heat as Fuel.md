@@ -138,6 +138,7 @@ That tank, here, is heat.
 ## Attribution
 
 This document describes an integrated thermal-electric vehicle architecture. The elastocaloric cooling mechanism utilizing nickel-titanium (Ni-Ti) and nickel-titanium-iron (Ni-Ti-Fe) foils referenced herein is based on published materials science research. Acknowledgment is given to Science Daily and the peer-reviewed scientific literature for coverage and development of heat-to-cold conversion concepts using elastocaloric shape-memory alloy films, which form the theoretical foundation for the solid-state cooling stage (LM-H2C) described in this design.LM-H2C heat-to-cold
-
+LM-H2C heat-to-cold
+ University of Tsukuba heat-driven elastocaloric cooler.scitechdaily.comEngineering status.
  also see conceptual development.md legal concept 
 
