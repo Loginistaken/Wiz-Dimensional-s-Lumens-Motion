@@ -124,7 +124,7 @@ if concentration cannot be kept on the receiver without tracking or frequent adj
 eats the store faster than the targets assume.The value proposition is the same question the rooftop quartz hybrid asks in a different
 form: does using more of the sun’s energy—photons, heat, and now a slice of cold—justify the extra machinery for people who actually need motion,
 electricity, warmth, and cooling from one system? In bright climates with long parked-charge windows and mixed thermal loads, the architecture has a 
-coherent story. In gray winters, short days, and highway-only use, a smaller battery car and a plug remain simpler.What the vehicle isLumens Motion is 
+coherent story. In gray winters, short days, and highway-only use, a smaller battery car and a plug remain simpler.What the vehicle is Lumens Motion is 
 not a solar panel on wheels and it is not a perpetual-motion claim. It is a conceptual expedition machine that concentrates sunlight, stores heat as 
 the primary fuel, turns the best of that heat into electricity through a free-piston Stirling, buffers the rest with a 90 kilowatt-hour pack and four 
 motors, peels leftover gradients for extra watts and cabin heat, and, in the present design, uses mid-grade waste heat to stroke a solid-state cooler
@@ -133,4 +133,11 @@ tank, helium engine and regenerator, magnetic blend, cascade, energy computer—
 failed to make more work could still make cold.The future of a solar vehicle, if this path is ever built and measured, is not a larger roof of cells. 
 It is a system that works with the energy people actually spend: moving, staying warm, staying cool, and arriving with something left in the tank.
 That tank, here, is heat.
+---
+
+## Attribution
+
+This document describes an integrated thermal-electric vehicle architecture. The elastocaloric cooling mechanism utilizing nickel-titanium (Ni-Ti) and nickel-titanium-iron (Ni-Ti-Fe) foils referenced herein is based on published materials science research. Acknowledgment is given to Science Daily and the peer-reviewed scientific literature for coverage and development of heat-to-cold conversion concepts using elastocaloric shape-memory alloy films, which form the theoretical foundation for the solid-state cooling stage (LM-H2C) described in this design.LM-H2C heat-to-cold
+
+ also see conceptual development.md legal concept 
 
