@@ -18,7 +18,7 @@ The Lumens Motion project may evolve through successive versions, prototypes, si
 
 **Conceptual status:** Unless expressly identified otherwise, Lumens Motion represents a conceptual engineering and development program rather than a claim of completed, tested, certified, or commercially manufactured technology. Technical performance values, efficiency estimates, operating ranges, material selections, energy-flow models, and other engineering parameters may represent conceptual targets, calculations, simulations, or proposed configurations and should not be interpreted as verified production specifications unless independently demonstrated and documented.
 
-This attribution statement is intended to establish the development history and human-directed authorship context of the Lumens Motion project. It does not replace formal patent filings, copyright registrations, trademark registrations, contracts, nondisclosure agreements, assignments, or other legal instruments that may be appropriate for securing particular intellectual-property rights.
+
 
 **Project:** Wiz-Dimensional — Lumens Motion
 **Conceptual Developer:** Eric C. Lindau
