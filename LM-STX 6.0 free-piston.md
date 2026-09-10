@@ -115,7 +115,173 @@ assist after multi-stage span existsHeat-driven cooling is still a heat pump. Dr
 must be rejected. 6.0 does not repeal the second law. It relocates cold production onto a heat stream that 5.1 was already carrying.
 
 Design canvastextLUMENS MOTION 6.0 CANVAS
+A conventional electric car stores energy as chemical potential in a battery. A conventional solar car adds photovoltaic panels and hopes a few square meters of roof can feed that battery. Physics is unkind to that hope. Midday sun is about 1,000 W/m21{,}000\,\mathrm{W/m^2}1{,}000\,\mathrm{W/m^2}
+. A car roof is small. Highway drag is not. You cannot collect highway power from a sedan lid.Lumens starts one step earlier in the energy chain. Photons are concentrated onto a high-temperature receiver. Heat is stored in a dense thermal reservoir. A Stirling engine — an external-heat machine with no combustion inside it — spends the highest-value heat on motion or electricity. A smaller battery remains, but it is a shock absorber: acceleration, hills, clouds, regen. The “fuel tank” is supposed to be heat.The sentence the project has been rewriting since Version 1 is:Sun → heat + a little electricity → storage → propulsion → recovery → (in 6.0) cold → propulsion again.Heat does continuous work. Electricity handles transients. Cold, after 6.0, is supposed to be made from heat that already failed to make more work. Only then may leftover heat reach a radiator.That is the whole thesis. Every version is an argument about where to put the next conversion.How the idea grew: Version 1 to 6.0Version 1 — photon to piston to wheelThe first files define a photonic thermal-mechanical automobile, not a battery car with panels. Path: sunlight → optics → thermal receiver → Stirling-type engine → crank and magnetic torque → wheels. Integrated optical skin of a few square meters on the body; a large deployable canopy (about (100)–150 m2150\,\mathrm{m^2}150\,\mathrm{m^2}
+) for parked charging; silicon-carbide-class receiver; high-temperature storage on the order of 100 kWh100\,\mathrm{kWh}100\,\mathrm{kWh}
+; helium Stirling; regenerator; a small electronics battery. Range sketches were modest: roughly (180)–(210) miles at 30 mph30\,\mathrm{mph}30\,\mathrm{mph}
+ from a 100 kWh100\,\mathrm{kWh}100\,\mathrm{kWh}
+ thermal store at a raw 30%30\%30\%
+ conversion assumption. The point was not the number. The point was that thermal storage plus concentration might beat a roof of PV. 
 
+raw.githubusercontent.com
+
+Kept into 6.0: sunlight as primary source, concentrating optics, SiC-class receiver, helium Stirling, regenerator, canopy, thermal “tank,” energy-management computer.Version 1.5 — rejected heat is a resourceHeat-waste-cooling-Recycle-V1.5.md adds the second principle. Useful leftover heat should be recovered, stored again at lower temperature, used, and only then dumped. This is the ancestor of every later cascade. 6.0 still lives inside that sentence. The missing hardware was how leftover heat becomes cold without a compressor.Version 2.0 — a parallel electric pathThe 2.0 hybrid files admit what Version 1 could not politely say: a heat engine is slow to change its mind. Instant torque, regenerative braking, and electronics want electricity. 2.0 keeps the thermal trunk and adds motors, a modest battery, and regen. From here on Lumens is dual-path: heat for endurance, electricity for edges.Kept into 6.0: battery buffer, motors that also generate, shared electrical highway.Version 3.0 / 3.1 — expedition packaging and a blender3.0 sizes the car so the optics and the store can exist: about 8.2 m8.2\,\mathrm{m}8.2\,\mathrm{m}
+ long by 2.6 m2.6\,\mathrm{m}2.6\,\mathrm{m}
+ wide. Canopy becomes a variable-geometry collector (full spread, cruise wing, stowed teardrop). PCM store is treated as structure, not a brick in the trunk. A magnetic torque coupler blends Stirling shaft torque with electric motor torque on one mechanical line. Battery is still small ((28)–35 kWh35\,\mathrm{kWh}35\,\mathrm{kWh}
+). Full-system range sketches rise into the hundreds of miles if sun, store, and cascade all cooperate. EL-40 appears as the hybrid energy manager: Divergence, Resonance, Phase-Lock, Convergence. 
+
+raw.githubusercontent.com
+
+Kept into 6.0: expedition envelope as a packaging seed, large canopy, multi-zone thermal thinking, EL four-movement logic.
+Softened later: magnetic shaft blending is optional. 5.1 and 6.0 prefer Stirling → electricity → motors so every converter shares one bus.Version 4.0 — the engine gets a nameLM-STX 4.0 is the custom sealed-helium free-piston Stirling rebuilt for this vehicle: SiC/Inconel heater head, expansion and compression spaces, multi-zone regenerator, cold-side exchanger, linear alternator. “Free-piston” means no combustion crank train, not “no piston.” LM-TCC is added as a heat-recovery and cooling cascade after the engine — still a block that might be absorption or thermoelectric, not yet a named solid-state machine. Photonic skin, canopy, receiver, exchanger all harden into named parts.Kept into 6.0: almost the entire 4.0 machine list. LM-STX is still the defining engine.Version 5.0 — bottoming recovery and “zero-radiator” as a mode5.0 keeps 4.0 and adds a more serious bottoming stage: thermoelectric generators on residual heat, multi-stage cascade, predictive routing that tries to use cabin, pack, and PCM as sinks so the radiator can sleep. The claim is architectural: under cruise, Lumens should reject less heat than a typical EV’s electronics-and-pack loop. The stronger “cabin AC from waste heat” language lives here. Physics later forces 6.0 to walk that language back to an assist.Version 5.1 — long-range thermal-electric5.1 is the last complete vehicle file in the repo before 6.0. Battery grows to ∼90 kWh\sim 90\,\mathrm{kWh}\sim 90\,\mathrm{kWh}
+ usable. Thermal store grows to ∼300 kWh\sim 300\,\mathrm{kWh}\sim 300\,\mathrm{kWh}
+ thermal, three zones, SiC + graphite + PCM + multilayer insulation. LM-STX target ∼35\sim 35\sim 35
+–45 kWe45\,\mathrm{kW_e}45\,\mathrm{kW_e}
+. ATEG targets (5)–8%8\%8\%
+ of an appropriate residual stream. Skin becomes adaptive solar-thermal (PV + thermal + guides). EL-50+ inherits EL-40’s four movements. Propulsion default becomes electric wheels. Central range targets, still conceptual: ∼900\sim 900\sim 900
+ mi at 30 mph30\,\mathrm{mph}30\,\mathrm{mph}
+, ∼625\sim 625\sim 625
+ at (45), ∼350\sim 350\sim 350
+ at (65). Zero-radiator remains a mode, not a law of nature. 
+
+raw.githubusercontent.com
+
+The hole: 5.1 can turn leftover heat into watts (ATEG) or warmth (cabin/pack). It cannot turn leftover heat into cold without spending battery current on a compressor. That is the sentence 6.0 exists to finish.Version 6.0 — heat becomes strain, strain becomes cold6.0 does not enlarge the store, the pack, the canopy, or the paper range. It rebuilds every inherited block so mid-grade heat can actuate a real cooler: the KIT / University of Tsukuba heat-driven elastocaloric device. Two ultrathin nickel-titanium films. One turns ∼86\sim 86\sim 86
+–130∘C130^\circ\mathrm{C}130^\circ\mathrm{C}
+ heat into pull. The other uses that pull to drop temperature. No electric compressor in the actuation path. Lab proof is small: 2.79 mW2.79\,\mathrm{mW}2.79\,\mathrm{mW}
+ and 2.2 K2.2\,\mathrm{K}2.2\,\mathrm{K}
+ lift on waste heat. 6.0 treats that as existence of a mechanism, not as cabin air-conditioning. 
+
+kit.edu
+
+One-line verdict from the 6.0 write-up: it is an upgrade if “upgrade” means the car finally uses heat for cooling. It is not an upgrade if “upgrade” means the 900/625/350900/625/350900/625/350
+ mile targets get larger on paper.How 6.0 is supposed to runPrimary loop
+Sun → adaptive optics → SiC receiver → 300 kWh300\,\mathrm{kWh}300\,\mathrm{kWh}
+ multi-zone store → LM-STX 6.0 → linear alternator → HV DC bus → inverters → motors → wheels.Parallel loops  Sun → PV fraction of the skin → DC bus / 90 kWh90\,\mathrm{kWh}90\,\mathrm{kWh}
+ battery  
+Wheels → motors as generators → battery  
+Residual heat → ATEG → extra watts  
+Residual (90)–130∘C130^\circ\mathrm{C}130^\circ\mathrm{C}
+ heat → LM-H2C → cold to electronics, pack edges, later cabin assist  
+Last heat → radiator
+
+Philosophy
+Heat works first. Electricity covers spikes. Cold is manufactured from heat that already lost the chance to make more work. EL-60 decides the mix, including a new question: is one watt of cold worth more than one watt from ATEG on this stream?Default propulsion is electrical. The floor drive shaft you asked to see is the older 3.0 magnetic/mechanical option, retained only if someone insists on a shaft. 6.0’s own text prefers one bus so Stirling, PV, ATEG, regen, and H2C valves all meet in the same electrical highway.Every 6.0 part, and why the vehicle needs itThese are the catalog objects. Each is either inherited and re-plumbed for H2C, or new.P01 — Adaptive photonic / solar-thermal skin
+From 4.0 / 5.1. The body is structure, aero surface, and collector at once: PV cells, thermal patches, light guides, protected concentrators. On the move it is a range extender, not the highway engine. 6.0 adds a second job: when cabin and pack are already satisfied, the skin can dump low-grade heat into the H2C reject path. The shell is no longer only an input.P02 — Deployable canopy ∼130 m2\sim 130\,\mathrm{m^2}\sim 130\,\mathrm{m^2}
+
+From 3.0–5.1. Parked or slow, this is the real charger. At 800 W/m2800\,\mathrm{W/m^2}800\,\mathrm{W/m^2}
+ it sees about 104 kW104\,\mathrm{kW}104\,\mathrm{kW}
+ incident before losses. 6.0 can reserve a mid-temperature slice of that charge to pre-cool electronics and the pack through H2C instead of draining the battery to pre-cool.P03 — Adaptive concentrator
+From 5.1. EL-60 opens concentration when the high-T store is hungry and defocuses at the receiver limit. New 6.0 rule: do not overfill the mid-T zone just to run the cooler if the high-T zone needs heat. Propulsion heat outranks cooling heat.P04 — SiC photonic receiver
+From 4.0 / 5.1. Concentrated light hits silicon carbide. No flame, no exhaust gas. This is the furnace. Without it there is no high-grade heat and therefore no Stirling.P05 — SiC / Inconel high-temperature exchanger
+From 4.0 / 5.1. Moves heat from receiver into store and Stirling heater head. 6.0 needs it more, because three customers now wait: Stirling, ATEG, H2C. Transfer rate is as important as stored kilowatt-hours.P06 — Multi-zone thermal reservoir ∼300 kWh\sim 300\,\mathrm{kWh}\sim 300\,\mathrm{kWh}
+ usable
+From 5.1, made explicit as a three-customer store.  High-T → LM-STX hot side  
+Mid-T ∼90\sim 90\sim 90
+–130∘C130^\circ\mathrm{C}130^\circ\mathrm{C}
+ → ATEG and the H2C actuator  
+Low-T → cabin heat, pack warmup, H2C dump
+
+Architecture: SiC matrix + graphite spreader + encapsulated high-T PCM + multilayer insulation. PCM chemistry waits for a real Stirling hot-side temperature. This is the main tank. The 90 kWh90\,\mathrm{kWh}90\,\mathrm{kWh}
+ battery is not.P07 — Multilayer high-T insulation
+Keeps a several-hundred-degree store from becoming the cabin.P08 — LM-STX 6.0 helium free-piston Stirling
+Defining engine since 4.0. Sealed helium, SiC/Inconel heater head, expansion and compression spaces, multi-zone regenerator, cold-side exchanger, linear alternator, electromagnetic control. Sun heats the hot side; helium expands; the power piston oscillates; the alternator writes DC onto the bus. Target: (35)–45 kW45\,\mathrm{kW}45\,\mathrm{kW}
+ electrical under favorable conditions. Mid-to-high-40%40\%40\%
+ thermal-to-electric is a research target, not a measurement. 6.0 change: the cold-side exchanger can send a slice of leftover heat to the H2C actuator. The Stirling is never starved to make cabin air.P09 — Multi-zone regenerator
+Internal recycle inside the Stirling cycle. Heat is reused before anything is offered to ATEG or H2C. That order is load-bearing. H2C must not rob the regenerator.P10 — Cold-side exchanger
+Helium stays sealed. Liquid jackets pull heat off the cold end. That stream splits to ATEG, H2C, cabin, or radiator.P11 — Linear alternator
+Heat → piston motion → electricity. This is why thermal energy can push the wheels without first becoming battery charge.P12 — ATEG
+From 5.0 / 5.1. Seebeck modules on residual gradient. Target (5)–8%8\%8\%
+ of an appropriate leftover stream. EL-60 bypasses it when losses beat the watts. 6.0 rule: heat on one stream cannot do ATEG and H2C at full strength. Cold can win the argument.P13 / P14 — LM-H2C and its cold plates
+The only truly new core stage. Rebuilt LM-TCC, no longer “absorption or TE cooler.” Mid-T heat strokes ∼22 μm\sim 22\,\mu\mathrm{m}\sim 22\,\mu\mathrm{m}
+ one-way shape-memory TiNi. That pull loads ∼26.5 μm\sim 26.5\,\mu\mathrm{m}\sim 26.5\,\mu\mathrm{m}
+ superelastic TiNiFe. Unloading drops temperature. Coupling transfers force, not heat. Cycle about 0.83 Hz0.83\,\mathrm{Hz}0.83\,\mathrm{Hz}
+.Sized honestly:  Electronics / EL-60 / inverters: (50)–200 W200\,\mathrm{W}200\,\mathrm{W}
+ cold — the KIT automotive-electronics use case  
+Pack edges: (200)–500 W500\,\mathrm{W}500\,\mathrm{W}
+ assist if span improves  
+Cabin: assist, not plant. Cabin still wants (3)–9 kW9\,\mathrm{kW}9\,\mathrm{kW}
+ and (15)–25 K25\,\mathrm{K}25\,\mathrm{K}
+ lift  
+Lab device: 2.79 mW2.79\,\mathrm{mW}2.79\,\mathrm{mW}
+, 2.2 K2.2\,\mathrm{K}2.2\,\mathrm{K}
+ on waste heat — proof of mechanism only
+
+It is still a heat pump. Actuator waste plus lifted heat must be rejected. 6.0 does not repeal the second law. It relocates cold production onto a stream 5.1 was already carrying.P15 — 90 kWh90\,\mathrm{kWh}90\,\mathrm{kWh}
+ battery
+From 5.1. Peaks, hills, Stirling lulls, regen, HVAC backup. The only honest range mechanism H2C has is using this pack less for compressor cooling on a hot day. That is a real but small effect, not a new hundred-mile band.P16 / P17 — HV DC bus, inverters, four motors
+Common electrical highway. Four motors for torque vectoring and regen; two-motor fallback if mass wins. Motors become generators when the car slows. H2C sits on this bus only as valve and fan load.P18 — Magnetic torque / floor shaft
+From 3.0. Optional. 6.0 default is electric-only wheels.P19 / P20 — Cabin and pack loops
+Bidirectional. Winter: mid-T and low-T heat to cabin and battery; H2C off. Summer: mid-T to H2C; cold to electronics first, pack second, cabin third. Saturated: radiator. This is 5.1’s zero-radiator idea with a real cold sink added. Zero radiator still cannot last forever.P21 — Final radiator
+Last sink. Inherited reject targets stay the baseline: about (1)–3 kW3\,\mathrm{kW}3\,\mathrm{kW}
+ at 30 mph30\,\mathrm{mph}30\,\mathrm{mph}
+, (2)–(5) at (45), (4)–(9) at (65), depending how much heat cabin, pack, ATEG, PCM, and now H2C absorb. H2C can cut electrical HVAC draw and can also increase dump heat, because it moves cabin/pack heat onto the reject stream.P22 — EL-60
+EL-40 / EL-50+ plus one state variable: cold demand.  Divergence: list sun, store, Stirling, battery, regen, ATEG, H2C, route, weather  
+Resonance: cheapest legal mix  
+Phase-lock: sync Stirling, inverters, H2C cycle rate, SOC  
+Convergence: sit in the lowest-loss legal state
+
+Hard locks: never cool the high-T store to feed H2C; never block regen room for comfort; if the cabin needs heat, H2C is off. Implementation can be ordinary automotive compute. Older “memory phase crystal” language is flavor, not required silicon.P23 — Platform seed
+From 3.0: ∼8.2×2.6 m\sim 8.2 \times 2.6\,\mathrm{m}\sim 8.2 \times 2.6\,\mathrm{m}
+ so canopy, store, and cascade fit. The sports-GT images used for visualization are a tighter body. The catalog packaging is still the expedition envelope.Cooling, said cleanlyOlder cars spend electricity to pump heat out of cabin and pack. Lumens already spends heat to make electricity. 6.0 inserts a third conversion between those facts.Concentrated sun charges the high-T store.  
+LM-STX spends the best heat on watts.  
+ATEG skims a little more from the leftover gradient.  
+LM-H2C uses the (90)–130∘C130^\circ\mathrm{C}130^\circ\mathrm{C}
+ band as an actuator for solid-state cold.  
+Only heat with no remaining job hits the radiator.
+
+That is why every inherited part was rebuilt: skin, canopy, receiver, reservoir, Stirling cold side, ATEG priority, battery duty, motors, and the computer all have to accept a cold-demand term. Without that plumbing, the KIT film pair is a lab curiosity on the bench, not a vehicle stage.Anticipated performance — and what it is notAll figures are 5.1 targets unless marked as an H2C effect.Store
+Role
+6.0
+Battery
+buffer, peaks, regen
+∼90 kWh\sim 90\,\mathrm{kWh}\sim 90\,\mathrm{kWh}
+ usable
+Thermal
+main tank; mid-T slice is now also cooling fuel
+∼300 kWhth\sim 300\,\mathrm{kWh_{th}}\sim 300\,\mathrm{kWh_{th}}
+
+Electrical-equivalent of 300 kWhth300\,\mathrm{kWh_{th}}300\,\mathrm{kWh_{th}}
+ at 45%45\%45\%
+
+if that efficiency is ever shown
+∼135 kWh\sim 135\,\mathrm{kWh}\sim 135\,\mathrm{kWh}
+ before downstream loss
+Parked canopy
+incident at 800 W/m2800\,\mathrm{W/m^2}800\,\mathrm{W/m^2}
+ on 130 m2130\,\mathrm{m^2}130\,\mathrm{m^2}
+
+∼104 kW\sim 104\,\mathrm{kW}\sim 104\,\mathrm{kW}
+ before losses
+
+Central range targets, unchanged by H2C:Speed
+Central concept target
+30 mph30\,\mathrm{mph}30\,\mathrm{mph}
+
+∼900\sim 900\sim 900
+ mi
+45 mph45\,\mathrm{mph}45\,\mathrm{mph}
+
+∼625\sim 625\sim 625
+ mi
+65 mph65\,\mathrm{mph}65\,\mathrm{mph}
+
+∼350\sim 350\sim 350
+ mi
+
+H2C does not raise those bands. It can protect them on a hot day by cutting compressor watts. A few hundred watts of HVAC saving at 30 mph30\,\mathrm{mph}30\,\mathrm{mph}
+ is small and real. It is not a new range class.What got better versus 5.1: a named cold machine; a summer job for mid-T heat besides ATEG or the radiator; electronics cooled without a compressor loop; EL-60 can trade ATEG watts against avoided HVAC watts; parked canopy energy can pre-cool thermally.What did not get better: Stirling watts, store size, battery size, canopy area, paper range. The radiator can still run indefinitely in hot, saturated weather. H2C adds mass, valves, film fatigue, and another exchanger. 5.0’s stronger cabin-AC-from-waste-heat claim is reduced to an assist, which is the physically honest direction.What would have to be true nextThe repository’s own next page is not more architecture. It is an energy-balance sheet:mid-T heat available after Stirling + ATEG at 30/45/65 mph30/45/65\,\mathrm{mph}30/45/65\,\mathrm{mph}
+  
+cold demand of inverters, pack, and cabin  
+H2C heat-in per watt-cold using the 2.2 K2.2\,\mathrm{K}2.2\,\mathrm{K}
+ waste-heat case  
+extra reject heat  
+film or tube mass and cycle life
+
+Until those are measured, 6.0 is a complete argument about how to finish the cascade that Version 1.5 opened: keep every conversion that already earned its place, and finally spend leftover heat on cold before you spend battery current to fight your own waste heat. 
+
+
+That is the vehicle, part by part, from the first photonic-mechanical sketch to the heat-driven elastocaloric close.
 ================================================================
 
 PURPOSE
