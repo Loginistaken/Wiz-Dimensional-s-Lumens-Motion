@@ -1,8 +1,11 @@
 LM-STX 6.0 free-piston Stirling + 300 kWh multi-zone thermal reserve + 90 kWh battery + ATEG + LM-H2C heat-to-cold 
 
-stage + adaptive solar-thermal skin + EL-60 predictive energy computerRebuilt from every architectural idea in Wiz-Dimensional-s-Lumens-Motion,
+stage + adaptive solar-thermal skin + EL-60 predictive energy computer Rebuilt from every architectural idea in Wiz-Dimensional-s-Lumens-Motion,
 
-then closed with the KIT / University of Tsukuba heat-driven elastocaloric cooler.scitechdaily.comEngineering status. Lumens Motion 6.0 is a
+
+This document describes an integrated thermal-electric vehicle architecture. The elastocaloric cooling mechanism utilizing nickel-titanium (Ni-Ti) and nickel-titanium-iron (Ni-Ti-Fe) foils referenced herein is based on published materials science research. Acknowledgment is given to Science Daily and the peer-reviewed scientific literature for coverage and development of heat-to-cold conversion concepts using elastocaloric shape-memory alloy films, which form the theoretical foundation for the solid-state cooling stage (LM-H2C) described in this design.
+
+Lumens Motion 6.0 is a
 
 conceptual reconstruction. No mileage, power, thermal-efficiency, cooling-capacity, heat-exhaust, charging, or material figure below has been 
 
@@ -601,3 +604,5 @@ H2C heat-in per watt-cold using the 2.2 K waste-heat case
 extra reject heat  
 film or tube mass and cycle life
 
+LM-H2C heat-to-cold
+ University of Tsukuba heat-driven elastocaloric cooler.scitechdaily.comEngineering status.
