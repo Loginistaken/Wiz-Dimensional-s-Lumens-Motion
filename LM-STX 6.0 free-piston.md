@@ -1,86 +1,168 @@
 LM-STX 6.0 free-piston Stirling + 300 kWh multi-zone thermal reserve + 90 kWh battery + ATEG + LM-H2C heat-to-cold 
+
 stage + adaptive solar-thermal skin + EL-60 predictive energy computerRebuilt from every architectural idea in Wiz-Dimensional-s-Lumens-Motion,
+
 then closed with the KIT / University of Tsukuba heat-driven elastocaloric cooler.scitechdaily.comEngineering status. Lumens Motion 6.0 is a
+
 conceptual reconstruction. No mileage, power, thermal-efficiency, cooling-capacity, heat-exhaust, charging, or material figure below has been 
+
 demonstrated on a working vehicle. The numbers are engineering targets used to decide whether the rebuilt architecture is worth pursuing. 
+
 Prototype, thermal, optical, Stirling, elastocaloric, battery, aerodynamic, and full energy-balance tests would be required before any 
+
 performance number could be claimed.
+
 Not yet as proven range.6.0 is an upgrade because 
+
 it rebuilds the whole Lumens stack around one missing conversion that 1.5 through 5.1 kept asking for and never named as hardware:waste 
+
 heat → mechanical strain → cold.From Heat-waste-cooling-Recycle-V1.5.md onward, the repo treated rejected Stirling heat as a resource. 
+
 LM-TCC put a heat-driven refrigeration block after the engine. 5.0.md said that block could be an absorption or thermoelectric cabin cooler. 
+
 5.1.md kept the cascade, added ATEG, and then described cabin heating and battery conditioning — but dropped the explicit heat-to-cold machine. 
+
 That left a hole: 5.1 can turn leftover heat into a few more watts, or into warmth. It cannot turn leftover heat into cold without spending 
+
 battery current on a compressor.github.comThe SciTechDaily / Nature Energy device fills that hole with a real mechanism. 
+
 Two ultrathin nickel-titanium films do the two jobs that used to require an electric actuator: one film turns ~86–130 °C heat into pull; 
+
 the second film uses that pull to drop temperature through the elastocaloric effect. KIT already lists automotive electronics cooled by
+
 drivetrain heat as a target.kit.eduThat is the upgrade.It is not an upgrade of the 5.1 range envelope by itself. 
+
 The published cooler produced 2.79 mW and a device lift of 2.2 K on real external heat. Cabin air-conditioning is
+
 still a 3–9 kW problem. 6.0 therefore upgrades the thermal logic of every inherited part — skin, canopy, receiver, 
+
 reservoir, Stirling, ATEG, battery, motors, EL computer — so mid-grade heat can become cold for electronics,
+
 pack hot spots, and later a cabin assist. It does not claim 1,200-mile summers or a deleted radiator.One-line 
+
 verdict: 6.0 is an upgrade if “upgrade” means the vehicle finally uses heat for cooling instead of burning
+
 electricity to fight its own waste heat. It is not an upgrade if “upgrade” means the 900 / 625 / 350 mile 
+
 targets get larger on paper.The heat-to-cold conceptConventional cars spend electricity to pump heat out of 
+
 the cabin and pack. Lumens already spends heat to make electricity. 6.0 inserts a third conversion between 
+
 those two facts.Concentrated sunlight charges a high-temperature store.
+
 The LM-STX Stirling turns the highest-value heat into electricity for the wheels.
+
 ATEG skims a little more electricity from the leftover gradient.
+
 LM-H2C takes what is left in the 90–130 °C band and uses it as the actuator for solid-state cooling.
+
 Only heat with no remaining job hits the radiator.The published machine works like this:electronicsforu.comActuator
+
 film: 22 µm one-way shape-memory TiNi. Heat shrinks it. That is the motor.
+
 Refrigerant film: 26.5 µm superelastic TiNiFe. Stretch and release change its crystal structure and its temperature. That is the refrigerator.
+
 Coupling transfers force, not heat.
+
 Cycle ~0.83 Hz.Published anchors used as 6.0 design limits, not marketing numbers:nature.comQuantity
+
 Lab result
+
 6.0 use
+
 Actuator heat
+
 86 °C / 130 °C external
+
 LM-TCC mid-T zone
+
 Film ΔT
+
 12.9 K
+
 material limit
+
 Device ΔT
+
 4.0 K electric / 2.2 K waste-heat
+
 conservative design case
+
 Specific cooling power
+
 4.43 / 3.32 W g⁻¹
+
 scale-up estimate
+
 Device cooling power
+
 2.79 mW
+
 proof only
+
 First vehicle job
+
 —
+
 electronics + pack edges
+
 Cabin job
+
 —
+
 assist after multi-stage span existsHeat-driven cooling is still a heat pump. Driving heat plus lifted cabin/pack heat 
+
 must be rejected. 6.0 does not repeal the second law. It relocates cold production onto a heat stream that 5.1 was already carrying.
+
 Design canvastextLUMENS MOTION 6.0 CANVAS
+
 ================================================================
+
 PURPOSE
+
   Long-range solar-thermal-electric vehicle that stores heat and
+
   electricity, then spends leftover heat on cold before the radiator.IS THIS AN UPGRADE?
+
   Architecture: YES.  Range claim: NOT YET.
+
   New conversion: heat → strain → cold (LM-H2C).PRIMARY LOOP
+
   Sun → optics → SiC receiver → 300 kWh multi-zone store
+
     → LM-STX → linear alternator → DC bus → motors → wheelsPARALLEL LOOPS
+
   Sun → PV skin → DC bus / battery
+
   Wheels → regen → battery
+
   Residual heat → ATEG → electricity
+
   Residual 90–130 °C heat → LM-H2C → cold
+
   Cold → electronics / pack / cabin assist
+
   Last heat → radiatorSTORES
+
   Thermal  ~300 kWh usable   (SiC + graphite + PCM + insulation)
+
   Electric ~90 kWh usable    (buffer, peaks, regen)CONVERTERS
+
   LM-STX 6.0     35–45 kW electric target from heat
+
   ATEG           5–8% of appropriate residual stream (target)
+
   LM-H2C         heat-actuated elastocaloric cold
+
   4 motors       propel + regenerateBRAIN
+
   EL-60          Divergence → Resonance → Phase-Lock → Convergence
+
                  now includes a cold-demand termPLATFORM SEED (from 3.0)
+
   Expedition envelope ~8.2 m × 2.6 m so canopy, store, and cascade fit
-================================================================
+
+===============================================================
 
 Energy philosophySUN → HEAT + ELECTRICITY → STORAGE → PROPULSION → RECOVERY → COLD → PROPULSION AGAINHeat does work first. 
 Electricity handles transients. Cold is made from heat that already failed to make more work.Rebuilt energy pathEvery
