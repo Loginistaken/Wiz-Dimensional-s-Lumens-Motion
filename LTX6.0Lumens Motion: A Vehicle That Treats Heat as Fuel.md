@@ -10,9 +10,9 @@ vehicle now heat is turned into motion and the solar aspect is stored in battery
 
 those electrons on motors, air conditioning, and hills. A conventional solar car does the same thing with more panels and the same unkind 
 
-arithmetic: midday sun is about 1,000 watts per square meter, a car roof is small, and highway drag is not. You cannot collect highway power 
+arithmetic: midday sun is about 1,000 watts per square meter, a car roof is small, and highway drag is not.
 
-from a sedan lid.Lumens Motion starts one step earlier in the energy chain. Photons are gathered over a large optical aperture, concentrated 
+Lumens Motion starts one step earlier in the energy chain. Photons are gathered over a large optical aperture, concentrated 
 
 onto a high-temperature receiver, and stored as heat in a dense thermal reservoir. An external-heat engine—a sealed helium Stirling machine 
 
@@ -30,13 +30,7 @@ was not a battery car with panels. It was a photonic thermal-mechanical automobi
 
 receiver, receiver into a helium Stirling engine, engine into crank and magnetic torque, torque into wheels. An integrated optical skin of 
 
-several square meters on the body would trickle energy while moving. A large deployable canopy, on the order of 100–150 square meters,
-
-would intercept roughly 150 kilowatts of incident sunlight when the vehicle was parked. High-temperature storage on the order of 100
-
-kilowatt-hours would act as the tank. Range sketches were modest—roughly 180–210 miles at 30 mph from that store at a raw 30 percent 
-
-conversion assumption—because the point was the architecture, not the number.The next principle did not replace that path. 
+several square meters on the body would trickle energy while moving.The next principle did not replace that path. 
 
 It completed it. Useful leftover heat should be recovered, stored again at a lower temperature, used, and only then dumped. 
 
