@@ -6,7 +6,7 @@ It is sunlight after the photons have given up their energy.Sunlight is the ther
 
 vehicle now heat is turned into motion and the solar aspect is stored in battery. 
 
- Lumens motion paints photovoltaic cells on a small roof, stores whatever electrons it can catch in a battery, and spends
+ Lumens motion paints photovoltaic cells on a small roof and hood, stores whatever electrons it can catch in a battery, and spends
 
 those electrons on motors, air conditioning, and hills. A conventional solar car does the same thing with more panels and the same unkind 
 
