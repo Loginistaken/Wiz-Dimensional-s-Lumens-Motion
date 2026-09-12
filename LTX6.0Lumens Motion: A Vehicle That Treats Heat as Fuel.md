@@ -2,9 +2,13 @@ Lumens Motion: A Vehicle That Treats Heat as Fuel
 
 Have you ever stood in full sun and felt how quickly a dark surface becomes too hot to touch? 
 
-That heat is not a side effect of sunlight. It is sunlight after the photons have given up their energy. A conventional electric car ignores
+It is sunlight after the photons have given up their energy
 
-most of that transformation. It paints photovoltaic cells on a small roof, stores whatever electrons it can catch in a battery, and spends
+That heat is the thermal fuel that runs this hybrid thermal electric vehicle now sunlight is set to motion and solar aspect stores in battery. 
+
+ A conventional electric car ignores most of that transformation. It paints photovoltaic cells on a small roof, 
+ 
+ stores whatever electrons it can catch in a battery, and spends
 
 those electrons on motors, air conditioning, and hills. A conventional solar car does the same thing with more panels and the same unkind 
 
