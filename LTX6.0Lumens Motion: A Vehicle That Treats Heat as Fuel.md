@@ -6,7 +6,7 @@ It is sunlight after the photons have given up their energy
 
 Sunlight is the thermal fuel that runs this hybrid thermal electric vehicle now heat is turned into motion and the solar aspect is stored in battery. 
 
- A conventional electric car ignores most of that transformation. It paints photovoltaic cells on a small roof, 
+ A conventional electric car ignores most of that transformation. Lumens motion paints photovoltaic cells on a small roof, 
  
  stores whatever electrons it can catch in a battery, and spends
 
