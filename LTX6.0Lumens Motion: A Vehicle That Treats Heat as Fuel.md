@@ -52,9 +52,7 @@ dual-path: heat for the long pull, electricity for the transients.Packaging grew
 
 than around a battery pack. The working envelope is an elongated, low-slung expedition platform about 8.2 meters long 
 
-a
-
-Photon-collection skin, a variable-geometry optical sail, a silicon-carbide receiver, phase-change storage
+a Photon-collection skin, a variable-geometry optical sail, a silicon-carbide receiver, phase-change storage
 
 used as structural bulkheads, magnetic torque blending, and a compact electric path were integrated as
 
