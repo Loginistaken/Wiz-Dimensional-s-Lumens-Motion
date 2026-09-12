@@ -2,13 +2,11 @@ Lumens Motion: A Vehicle That Treats Heat as Fuel
 
 Have you ever stood in full sun and felt how quickly a dark surface becomes too hot to touch? 
 
-It is sunlight after the photons have given up their energy
+It is sunlight after the photons have given up their energy.Sunlight is the thermal fuel that runs this hybrid thermal electric 
 
-Sunlight is the thermal fuel that runs this hybrid thermal electric vehicle now heat is turned into motion and the solar aspect is stored in battery. 
+vehicle now heat is turned into motion and the solar aspect is stored in battery. 
 
- A conventional electric car ignores most of that transformation. Lumens motion paints photovoltaic cells on a small roof, 
- 
- stores whatever electrons it can catch in a battery, and spends
+ Lumens motion paints photovoltaic cells on a small roof, stores whatever electrons it can catch in a battery, and spends
 
 those electrons on motors, air conditioning, and hills. A conventional solar car does the same thing with more panels and the same unkind 
 
