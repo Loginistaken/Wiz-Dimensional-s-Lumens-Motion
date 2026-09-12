@@ -24,7 +24,7 @@ first sketches is simple: sunlight becomes heat and a little electricity; heat i
 
 and, in the present architecture, leftover heat is also allowed to become cold. Only heat with no remaining job reaches a radiator.That is
 
-the whole thesis. Everything that follows is an argument about where to put the next conversion.How the machine was assembledThe first idea 
+the whole thesis. Everything that follows is an argument about where to put the next conversion.How the machine was assembled. The first idea 
 
 was not a battery car with panels. It was a photonic thermal-mechanical automobile: sunlight into optics, optics onto a silicon-carbide-class
 
@@ -52,13 +52,13 @@ dual-path: heat for the long pull, electricity for the transients.Packaging grew
 
 than around a battery pack. The working envelope is an elongated, low-slung expedition platform about 8.2 meters long 
 
-and 2.6 meters wide, so the canopy, the thermal reservoir, the engine, and the cascade can actually fit. 
+a
 
 Photon-collection skin, a variable-geometry optical sail, a silicon-carbide receiver, phase-change storage
 
 used as structural bulkheads, magnetic torque blending, and a compact electric path were integrated as
 
-one system instead of being bolted onto a sedan.The engine itself was rebuilt as a custom free-piston
+one system skin layer that fits over vehicle while remaining aerodynamic .The engine itself was rebuilt as a custom free-piston
 
 Stirling with a sealed high-pressure helium charge, a silicon-carbide or Inconel heater head, a multi-zone
 
@@ -78,7 +78,7 @@ named as hardware: cold demand.The newest conversion closes a hole the cascade h
 
 first treated as a resource. Mid-grade heat in the 90–130 °C band is no longer only a thermoelectric leftover or a cabin warmer. 
 
-It becomes the actuator for solid-state cooling.The present vehicle: how 6.0 worksSunlight first meets an adaptive photonic and
+It becomes the actuator for solid-state cooling.The present vehicle: how 6.0 works Sunlight first meets an adaptive photonic and
 
 solar-thermal skin. The body is structure, aerodynamic surface, and collector at once: photovoltaic cells, thermal patches, 
 
@@ -86,9 +86,7 @@ light guides, and protected concentrators. While moving, the skin is a range ext
 
 It can also dump low-grade heat into the reject path when the cabin and pack are already satisfied. 
 
-The shell is no longer only an input.When the vehicle is parked or moving slowly, a deployable optical canopy of about
-
-130 square meters unfolds and orients toward the sun. Under strong midday conditions it intercepts a large photonic 
+the aerodynamic solar skin fits the out layer of vehicle on hood and roof.
 
 load and feeds a concentration path—quartz lenses, curved mirrors, and hybrid optics—onto a photonic thermal receiver.
 
@@ -160,7 +158,7 @@ It synchronizes Stirling output, inverter demand, cooler cycle rate, and battery
 
 Hard locks remain: never cool the high-temperature store to feed the cooler; never block regeneration room in the battery to chase a comfort nicety; 
 
-if the cabin needs heat, the cooler is off.Modes of useParked in strong sun, the canopy charges the high-temperature zone. The store fills.
+if the cabin needs heat, the cooler is off.Modes of useParked in strong sun, the hood and roof have special material that charges in the high-temperature zone. The store fills.
 
 The battery can charge from the photovoltaic fraction of the skin and from any surplus electrical generation. Recharge time is set by aperture, 
 
@@ -202,7 +200,7 @@ from the elastocaloric stage. What remains is radiator dump. Whether the total u
 
 secondary streams have loads. Heat that cannot be used is still waste. Cold that cannot be scaled is still a laboratory mechanism sitting 
 
-on a vehicle-sized problem.Materials that make the stack possibleOptics and skin use fused quartz or fused silica for transmission, thermal
+on a vehicle-sized problem.Materials that make the stack possible Optics and skin use fused quartz or fused silica for transmission, thermal
 
 shock resistance, and UV durability, with dielectric coatings, selective surfaces, aluminum or silver reflectors, and composite optical-sail
 
@@ -220,7 +218,7 @@ monocoque with high-strength steel crash structure. Aerodynamics are an elongate
 
 narrow frontal area, active shutters, low ride height, and a canopy that can run full-spread, as a lower-drag cruise wing, or 
 
-fully stowed.Expected performance—and the honest limit on those numbersThe present range targets, which the heat-to-cold stage
+fully stowed.Expected performance—and the honest limit on those numbers.The present range targets, which the heat-to-cold stage
 
 does not enlarge, are about 900 miles at 30 mph, 625 miles at 45 mph, and 350 miles at 65 mph, starting from a full 300 kilowatt-hour 
 
@@ -238,7 +236,7 @@ can go wrongThe vehicle is heavier and more complex than a battery electric car 
 
 a helium free-piston engine, a 130-square-meter deployable optic, liquid thermal loops, an elastocaloric stack, and a predictive multi-domain 
 
-controller are not a simple drivetrain. The canopy must retract under wind load in seconds. The store must be insulated and pressure-relieved
+controller are not a simple drivetrain. 
 
 so it cannot become a cabin hazard. Helium containment must be redundant. Thin tensile films must survive vehicle hours. Pumps, exchangers, 
 
@@ -260,7 +258,7 @@ the primary fuel, turns the best of that heat into electricity through a free-pi
 
 motors, peels leftover gradients for extra watts and cabin heat, and, in the present design, uses mid-grade waste heat to stroke a solid-state cooler
 
-so the car spends less electricity fighting its own warmth. Every major piece—optical skin and canopy, silicon-carbide receiver, multi-zone thermal 
+so the car spends less electricity fighting its own warmth. Every major piece—optical skin, silicon-carbide receiver, multi-zone thermal 
 
 tank, helium engine and regenerator, magnetic blend, cascade, energy computer—was kept from earlier sketches and then reconnected so heat that already 
 
