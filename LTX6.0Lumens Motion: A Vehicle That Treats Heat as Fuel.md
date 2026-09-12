@@ -4,7 +4,7 @@ Have you ever stood in full sun and felt how quickly a dark surface becomes too 
 
 It is sunlight after the photons have given up their energy
 
-That heat is the thermal fuel that runs this hybrid thermal electric vehicle now sunlight is set to motion and solar aspect stores in battery. 
+Sunlight is the thermal fuel that runs this hybrid thermal electric vehicle now heat is turned into motion and the solar aspect is stored in battery. 
 
  A conventional electric car ignores most of that transformation. It paints photovoltaic cells on a small roof, 
  
